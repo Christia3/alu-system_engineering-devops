@@ -1,4 +1,5 @@
 #!/bin/bash
+# This script installs and configures Nginx web server
 
 # Install Nginx
 apt-get update
