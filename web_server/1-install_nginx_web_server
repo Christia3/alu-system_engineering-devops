@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 # This script installs and configures Nginx web server
 
-# Install Nginx
+# Update the package list
 apt-get update
+
+# Install Nginx
 apt-get install -y nginx
 
 # Start Nginx
@@ -14,6 +16,8 @@ echo "Holberton School for the win!" > /var/www/html/index.html
 # Ensure Nginx is listening on port 80
 ufw allow 'Nginx HTTP'
 
+# Check if Nginx is running
+service nginx status
+
 # Restart Nginx without using systemctl
 service nginx restart
-
