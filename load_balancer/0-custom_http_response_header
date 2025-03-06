@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+#
+# This script configures Nginx to add a custom HTTP response header
+# X-Served-By with the hostname of the server.
 
 # Update package index
 sudo apt update
