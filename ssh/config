@@ -1,0 +1,7 @@
+Host c4d6f461b24b.adbaf930.alu-cod.online
+    User c4d6f461b24b
+    Port 35623
+    IdentityFile ~/.ssh/school
+    PreferredAuthentications publickey
+    PasswordAuthentication no
+
